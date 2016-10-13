@@ -8,6 +8,10 @@ public class Pais {
 
     public Pais() {
     }
+
+    public Pais(int pais_cod) {
+        this.pais_cod = pais_cod;
+    }
     
     public Pais(int pais_cod, String pais_nom) {
         this.pais_cod = pais_cod;
